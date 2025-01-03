@@ -353,7 +353,7 @@ class ProteinInteractionViewer:
             if(dihNum < len(aa.dihAtomNames)):
                 AAtype.setDihVal("_kropkresi", aa.dihAtomNames[dihNum],dihNum, newVal);
         else:
-            print "Please select one protein residue"
+            print Please select one protein residue
 
     def clearH(self):
         if reduceExe:
